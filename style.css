@@ -8,7 +8,7 @@
 body {
   background-image: linear-gradient(#ffffff, #f0f1ff);
   margin: 0px;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 
@@ -22,7 +22,7 @@ body {
 /* Laptop view (desktop) */
 @media (min-width: 1024px) {
  
-.hero_img{
+.laptop{
     display: block;
   }
    .mobile{
@@ -186,6 +186,16 @@ body {
   right:110px;
   transform: translate(10%, -50%);
 }
+.text{
+  width: 445px;
+  height: 84px;
+ 
+  font-size: 18px;
+
+}
+ 
+
+
 }
 
 
@@ -200,11 +210,12 @@ body {
 
  .mobile{
   display: block;
+  padding-top: 60px;
 }
  .tablet{
   display: none;
-  }
-   .hero_img{
+}
+.laptop{
     display: none;
   }
 
@@ -218,7 +229,7 @@ body {
 }
 
 .logo {
-  height: 30px;
+  height: 25px;
 }
 
 .btn_one {
@@ -240,11 +251,11 @@ body {
 }
 
 .skill {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 800;
   margin: 0;
-  width: 457;
-  height: 359;
+  width: 343px;
+  height:101px;
 }
 
 .btn_two {
@@ -269,7 +280,7 @@ body {
 }
 
 .group {
-  margin-block: 2.5rem;
+  /* margin-block: 2.5rem; */
   display: block;
   gap: 1rem;
   justify-content: space-between;
@@ -277,8 +288,10 @@ body {
 }
 
 .box1 {
-  margin-top: 1.5rem;
-  padding-inline: 2rem;
+  /* margin-top: 1.5rem;
+  padding-inline: 2rem; */
+   margin-top: 1rem;
+  padding-inline: 1rem;
   display: block;
   gap: 1rem;
   flex-direction: row;
@@ -300,9 +313,11 @@ body {
 }
 
 .cards {
+   margin-top: 1rem;
+  padding-inline: 1rem;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 2rem;
+  /* padding: 2rem; */
   justify-items: center;
   gap: 50px 20px;
 }
@@ -358,6 +373,14 @@ body {
   right:120px;
   transform: translate(10%, -50%);
 }
+
+.text{
+  width: 343px;
+  height: 78px;
+  margin-right: 20px;
+ 
+}
+
 }
 
 
@@ -375,7 +398,7 @@ body {
  .mobile{
   display: none;
   }
-   .hero_img{
+   .laptop{
     display: none;
   }
 
@@ -411,11 +434,12 @@ body {
 }
 
 .skill {
-  font-size: 56px;
+
+  font-size: 40px;
   font-weight: 800;
   margin: 0;
-  width: 457;
-  height: 359;
+  width: 326px;
+  height:101px;
 }
 
 .btn_two {
@@ -440,9 +464,9 @@ body {
 }
 
 .group {
-  margin-block: 2.5rem;
+  /* margin-block: 2.5rem; */
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
   justify-content: space-between;
   align-items: center;
 }
@@ -454,6 +478,7 @@ body {
   gap: 1rem;
   flex-direction: column;
   align-items: start;
+
 }
 
 .card {
@@ -529,5 +554,10 @@ body {
   right:120px;
   transform: translate(10%, -50%);
 }
-}
+/* .text{
+  width: 398px;
+  height: 78px;
+} */
 
+
+}
